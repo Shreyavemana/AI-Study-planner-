@@ -1,0 +1,412 @@
+{
+  "subjects": [
+    {
+      "subject_name": "Deep Learning",
+      "slug": "deep_learning",
+      "topics": [
+        {
+          "topic_id": "DL_T1",
+          "title": "Fundamentals of Neural Networks (ANNs)",
+          "questions": [
+            {
+              "q": "What is the primary function of the activation function in a neural network?",
+              "options": [
+                "A. Calculate the weighted sum of inputs.",
+                "B. Convert the output to a probability.",
+                "C. Introduce non-linearity into the network.",
+                "D. Initialize the weights."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Which of the following is typically the last layer in a neural network used for a binary classification problem?",
+              "options": [
+                "A. Sigmoid",
+                "B. ReLU",
+                "C. Softmax",
+                "D. Tanh"
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "topic_id": "DL_T2",
+          "title": "Convolutional Neural Networks (CNNs)",
+          "questions": [
+            {
+              "q": "The main purpose of the convolutional layer in a CNN is to:",
+              "options": [
+                "A. Extract features from the input data.",
+                "B. Flatten the data into a vector.",
+                "C. Determine the final class label.",
+                "D. Introduce non-linearity."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "What is the effect of using a Pooling Layer in a CNN?",
+              "options": [
+                "A. Increase the number of features.",
+                "B. Perform backpropagation.",
+                "C. Apply non-linear activation.",
+                "D. Reduce the dimensionality and computational load."
+              ],
+              "answer": "D"
+            }
+          ]
+        },
+        {
+          "topic_id": "DL_T3",
+          "title": "Recurrent Neural Networks (RNNs) and LSTMs",
+          "questions": [
+            {
+              "q": "RNNs are primarily designed to handle what type of data?",
+              "options": [
+                "A. High-dimensional image data.",
+                "B. Sequential data (e.g., time series, text).",
+                "C. Tabular data.",
+                "D. Sparse graph data."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "The cell state in a Long Short-Term Memory (LSTM) network is regulated by how many \"gates\"?",
+              "options": [
+                "A. One",
+                "B. Two",
+                "C. Three",
+                "D. Four"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "topic_id": "DL_T4",
+          "title": "Training Deep Networks",
+          "questions": [
+            {
+              "q": "What term describes a deep learning model that performs well on training data but poorly on unseen test data?",
+              "options": [
+                "A. Underfitting",
+                "B. Generalization",
+                "C. Overfitting",
+                "D. Regularization"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Which function is minimized during the training process to measure the difference between the network's output and the true labels?",
+              "options": [
+                "A. Activation Function",
+                "B. Loss Function (or Cost Function)",
+                "C. Gradient Descent",
+                "D. Learning Rate"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "topic_id": "DL_T5",
+          "title": "Deep Learning Architectures (Transformers/Attention)",
+          "questions": [
+            {
+              "q": "The core mechanism that allows a Transformer to weigh the importance of different words in a sequence is called:",
+              "options": [
+                "A. Gated Recurrent Unit (GRU)",
+                "B. Convolutional Filter",
+                "C. Pooling Layer",
+                "D. Attention"
+              ],
+              "answer": "D"
+            },
+            {
+              "q": "Which of the following components is NOT typically found in the standard Transformer architecture?",
+              "options": [
+                "A. Feedforward Network",
+                "B. Multi-Head Attention",
+                "C. Recurrent Layer (e.g., GRU)",
+                "D. Positional Encoding"
+              ],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Machine Learning",
+      "slug": "machine_learning",
+      "topics": [
+        {
+          "topic_id": "ML_T1",
+          "title": "Supervised Learning (Regression & Classification)",
+          "questions": [
+            {
+              "q": "Which type of machine learning task is best suited for predicting a continuous numerical output, such as house price?",
+              "options": [
+                "A. Clustering",
+                "B. Dimensionality Reduction",
+                "C. Regression",
+                "D. Classification"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "In a binary classification problem, which metric measures the proportion of actual positive cases that were correctly identified?",
+              "options": [
+                "A. Precision",
+                "B. Recall (Sensitivity)",
+                "C. Accuracy",
+                "D. F1-Score"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "topic_id": "ML_T2",
+          "title": "Unsupervised Learning (Clustering & PCA)",
+          "questions": [
+            {
+              "q": "The primary goal of a clustering algorithm like K-Means is to:",
+              "options": [
+                "A. Group similar data points together.",
+                "B. Predict a future value.",
+                "C. Label unlabeled data.",
+                "D. Find the optimal decision boundary."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Principal Component Analysis (PCA) is a technique primarily used for:",
+              "options": [
+                "A. Classification",
+                "B. Regression",
+                "C. Dimensionality Reduction",
+                "D. Feature Selection"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "topic_id": "ML_T3",
+          "title": "Model Evaluation and Validation",
+          "questions": [
+            {
+              "q": "Which technique is used to estimate how well a model will generalize to new data by partitioning the data multiple times into training and testing sets?",
+              "options": [
+                "A. Feature Scaling",
+                "B. Gradient Descent",
+                "C. Backpropagation",
+                "D. Cross-Validation"
+              ],
+              "answer": "D"
+            },
+            {
+              "q": "Which parameter controls the trade-off between bias and variance, and is typically tuned to improve a model's performance?",
+              "options": [
+                "A. Hyperparameter",
+                "B. Feature Weight",
+                "C. Class Label",
+                "D. Input Feature"
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "topic_id": "ML_T4",
+          "title": "Ensemble Methods",
+          "questions": [
+            {
+              "q": "Random Forests build multiple decision trees and combine their predictions. What technique is used to ensure the trees are diverse?",
+              "options": [
+                "A. Boosting",
+                "B. Bagging (Bootstrap Aggregating)",
+                "C. Stacking",
+                "D. Pruning"
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "The main difference between Boosting (e.g., AdaBoost) and Bagging (e.g., Random Forest) is that Boosting:",
+              "options": [
+                "A. Trains models sequentially, focusing on correcting previous errors.",
+                "B. Trains models in parallel, using all data.",
+                "C. Only works with regression problems.",
+                "D. Selects only the best performing tree."
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "topic_id": "ML_T5",
+          "title": "Feature Engineering and Preprocessing",
+          "questions": [
+            {
+              "q": "What is the process of converting categorical variables (like \"Red\", \"Green\", \"Blue\") into numerical form so a machine learning model can process them?",
+              "options": [
+                "A. Normalization",
+                "B. Imputation",
+                "C. One-Hot Encoding",
+                "D. Feature Aggregation"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Which data preprocessing step is most important when using algorithms that calculate distance between data points, such as K-Nearest Neighbors (KNN)?",
+              "options": [
+                "A. Handling Missing Values",
+                "B. Feature Scaling (Normalization/Standardization)",
+                "C. Feature Selection",
+                "D. Removing Outliers"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subject_name": "Computer Vision",
+      "slug": "computer_vision",
+      "topics": [
+        {
+          "topic_id": "CV_T1",
+          "title": "Image Fundamentals and Preprocessing",
+          "questions": [
+            {
+              "q": "What does the term pixel fundamentally represent in a digital image?",
+              "options": [
+                "A. The entire image file format.",
+                "B. A layer of features extracted by a filter.",
+                "C. The image's overall resolution.",
+                "D. A single point in the image with a specific color/intensity value."
+              ],
+              "answer": "D"
+            },
+            {
+              "q": "What is the primary purpose of image normalization (scaling pixel values, e.g., to [0,1])?",
+              "options": [
+                "A. To standardize input features and improve training convergence.",
+                "B. To blur the image and remove noise.",
+                "C. To increase the image's resolution.",
+                "D. To convert the image from color to grayscale."
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "topic_id": "CV_T2",
+          "title": "Classic Computer Vision (Feature Detection)",
+          "questions": [
+            {
+              "q": "The Canny Edge Detector algorithm primarily focuses on finding which image feature?",
+              "options": [
+                "A. Flat areas of constant color.",
+                "B. Curved lines only.",
+                "C. Sharp intensity changes (boundaries).",
+                "D. Corners and intersections only."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": "Which classic algorithm is often used to detect keypoints and create feature descriptors that are invariant to scale and rotation?",
+              "options": [
+                "A. K-Means Clustering",
+                "B. SIFT (Scale-Invariant Feature Transform)",
+                "C. Principal Component Analysis (PCA)",
+                "D. Hough Transform"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "topic_id": "CV_T3",
+          "title": "Object Recognition and Classification",
+          "questions": [
+            {
+              "q": "What is the typical activation function used in the output layer of a Convolutional Neural Network (CNN) for a multi-class classification task?",
+              "options": [
+                "A. Sigmoid",
+                "B. ReLU",
+                "C. Tanh",
+                "D. Softmax"
+              ],
+              "answer": "D"
+            },
+            {
+              "q": "What is the function of the receptive field in a convolutional layer?",
+              "options": [
+                "A. The number of layers in the CNN.",
+                "B. The local area of the input image that a filter (kernel) processes.",
+                "C. The total size of the output feature map.",
+                "D. The time it takes for the network to train."
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "topic_id": "CV_T4",
+          "title": "Object Detection and Segmentation",
+          "questions": [
+            {
+              "q": "What is the key difference between Image Classification and Object Detection?",
+              "options": [
+                "A. Object detection predicts both a class label AND bounding box coordinates.",
+                "B. Image classification uses RNNs, while detection uses CNNs.",
+                "C. Detection uses only grayscale images, while classification uses color.",
+                "D. Classification is performed before any preprocessing."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": "Which of the following is a common example of a one-stage object detection model?",
+              "options": [
+                "A. R-CNN (Region-based CNN)",
+                "B. Fast R-CNN",
+                "C. YOLO (You Only Look Once)",
+                "D. Mask R-CNN"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "topic_id": "CV_T5",
+          "title": "3D Vision and Geometric Vision",
+          "questions": [
+            {
+              "q": "Stereo Vision primarily calculates which physical property of a scene by comparing images from two cameras?",
+              "options": [
+                "A. The color temperature of objects.",
+                "B. Depth or Distance",
+                "C. The velocity of moving objects.",
+                "D. The number of objects in the scene."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": "In computer vision, what is a Homography typically used for?",
+              "options": [
+                "A. Converting a color image to grayscale.",
+                "B. Classifying objects in a video sequence.",
+                "C. Reducing the number of pixels in an image.",
+                "D. Mapping points between two images of a planar surface."
+              ],
+              "answer": "D"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
